@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: GabriWar
+      url-base: https://github.com/GabriWar
       # Additional modules containing boards/shields/custom code can be listed here as well.
       # See:
       # - https://zmk.dev/docs/features/modules
@@ -11,7 +13,7 @@ manifest:
       url: https://github.com/GabriWar/zmk-new_corne
       revision: main
     - name: zmk
-      remote: gabriwar
+      remote: GabriWar
       revision: main
       import: app/west.yml
   self:
