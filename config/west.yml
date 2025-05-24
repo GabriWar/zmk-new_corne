@@ -11,7 +11,7 @@ manifest:
       url: https://github.com/GabriWar/zmk-new_corne
       revision: main
     - name: zmk
-      remote: zmkfirmware
+      remote: GabriWar
       revision: main
       import: app/west.yml
   self:
