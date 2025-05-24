@@ -10,8 +10,8 @@ manifest:
     - name: eyelash_corne
       url: https://github.com/GabriWar/zmk-new_corne
       revision: main
-    - name: zmk
-      remote: GabriWar
+    - name: GabriWar
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
