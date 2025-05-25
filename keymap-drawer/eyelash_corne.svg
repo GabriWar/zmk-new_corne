@@ -207,10 +207,19 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
 /* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
 
 svg.keymap {
-  font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+   Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
   font-size: 12px;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -218,7 +227,7 @@ svg.keymap {
 
 /* Color accent for held keys */
 rect.held, rect.combo.held {
-    fill: #ffc;
+    fill: #0077ff;
 }
 
 /* Technique borrowed and extended from https://github.com/englmaxi/zmk-config/blob/master/keymap-drawer/config.yaml */
@@ -1339,4 +1348,4 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-</svg>
+<text x="1020.0" y="1302.0" class="footer">GabriWar's keymap</text></svg>
