@@ -219,7 +219,7 @@ path.combo { stroke: #7f7f7f; }
 /* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
 
 svg.keymap {
-   Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+   font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
   font-size: 12px;
   font-weight: bold;
   text-rendering: optimizeLegibility;
