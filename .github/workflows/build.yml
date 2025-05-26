@@ -25,6 +25,13 @@ jobs:
           name: firmware
           path: ./
 
+      - name: List downloaded files
+        run: |
+          echo "Contents of current directory:"
+          ls -la ./
+          echo "Looking for firmware.zip..."
+          find . -name "firmware.zip" -type f
+
       - name: Get latest tag
         id: get_tag
         run: |
@@ -43,9 +50,11 @@ jobs:
           if [ -z "$CHANGELOG" ]; then
             CHANGELOG="- Initial release"
           fi
-          echo "changelog<<EOF" >> $GITHUB_OUTPUT
-          echo "$CHANGELOG" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          {
+            echo "changelog<<EOF"
+            echo "$CHANGELOG"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
       - name: Create release tag
         id: create_tag
@@ -57,27 +66,20 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: ${{ steps.create_tag.outputs.tag_name }}
-          release_name: ZMK Firmware ${{ steps.create_tag.outputs.tag_name }}
+          tag: ${{ steps.create_tag.outputs.tag_name }}
+          name: ZMK Firmware ${{ steps.create_tag.outputs.tag_name }}
           body: |
             ## Changes
             ${{ steps.changelog.outputs.changelog }}
             
             ## Firmware Files
-            Download firmware.zip from the assets below.
+            Download firmware.zip containing:
+            - eyelash_corne_studio_left
+            - nice_view-eyelash_corne_right-zmk  
+            - settings_reset-eyelash_corne_left-zmk
           draft: false
           prerelease: false
-
-      - name: Upload firmware.zip
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./firmware.zip
-          asset_name: firmware.zip
-          asset_content_type: application/zip
+          artifacts: "./firmware.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
