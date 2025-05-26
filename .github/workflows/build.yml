@@ -23,14 +23,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: firmware
-          path: ./
-
-      - name: List downloaded files
-        run: |
-          echo "Contents of current directory:"
-          ls -la ./
-          echo "Looking for firmware.zip..."
-          find . -name "firmware.zip" -type f
+          path: ./firmware-download
 
       - name: Get latest tag
         id: get_tag
@@ -75,11 +68,8 @@ jobs:
             ${{ steps.changelog.outputs.changelog }}
             
             ## Firmware Files
-            Download firmware.zip containing:
-            - eyelash_corne_studio_left
-            - nice_view-eyelash_corne_right-zmk  
-            - settings_reset-eyelash_corne_left-zmk
+            Download firmware.zip containing all ZMK firmware files for your keyboard.
           draft: false
           prerelease: false
-          artifacts: "./firmware.zip"
+          artifacts: "./firmware-download/*.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
