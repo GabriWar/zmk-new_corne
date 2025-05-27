@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - SCRL UP
+  - $$mdi:pan-up$$
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - SCRL LEFT
-  - MCLK
-  - SCRL RIGHT
+  - $$mdi:pan-left$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:pan-right$$
   - H
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - V
   - B
   - $$mdi:keyboard-space$$
-  - SCRL DOWN
+  - $$mdi:pan-down$$
   - N
   - M
   - {t: ',', s: <}
