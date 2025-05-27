@@ -60,8 +60,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - .
   - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
