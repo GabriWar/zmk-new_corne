@@ -57,9 +57,9 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - '1'
-  - '2'
-  - '3'
+  - '7'
+  - '8'
+  - '9'
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -86,9 +86,9 @@ layers:
   - RGB EFF
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  - '1'
+  - '2'
+  - '3'
   - {t: '0', s: )}
   - END
   - PG DN
