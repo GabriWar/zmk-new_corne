@@ -18,7 +18,7 @@ manifest:
       remote: GabriWar
       revision: main
       import: app/west.yml
-      - name: nice-view-gem #NICE VIEW GEM THINGY
+    - name: nice-view-gem 
       remote: m165437 
       revision: main 
   self:
