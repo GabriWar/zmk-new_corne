@@ -92,8 +92,8 @@
         layer_3 {
             display-name = "FN";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&kp F1          &kp F2      &kp F3     &kp F4       &kp F5     &kp F6                                  &mmv MOVE_UP                     &kp F7       &kp F8     &kp F9       &kp F10     &kp F11          &kp F12
+&studio_unlock  &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &trans
 &trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
@@ -103,10 +103,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans    &kp UP    &trans     &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans    &trans    &trans     &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                            &trans     &trans  &trans                                    &trans  &trans  &trans
+&kp APOS  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp N5                    &trans          &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans    &trans          &kp UP_ARROW    &trans           &trans        &trans            &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
+&trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &trans  &trans            &trans          &trans        &trans  &trans  &trans  &trans  &trans
+                                          &trans           &trans        &trans                                    &trans        &trans  &trans
             >;
 
             label = "ARROWS";
