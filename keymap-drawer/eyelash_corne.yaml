@@ -42,11 +42,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: FN}
-  - {t: '$$mdi:keyboard-esc$$', h: FN}
+  - {t: '$$mdi:keyboard-return$$', h: FN}
   - SYMBOL
   - {t: '$$mdi:backspace-reverse-outline$$', h: ARROWS}
   NUMBER:
