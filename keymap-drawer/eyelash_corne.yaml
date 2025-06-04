@@ -63,9 +63,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
-  - RGB BRD
+  - $$mdi:bluetooth-off$$
+  - RGB SPI
+  - RGB SPD
   - RGB SAI
   - RGB SAD
   - RGB COLOR HSB(188,100,50)
@@ -78,12 +78,12 @@ layers:
   - {t: /, s: '?'}
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB TOG
+  - BT CLR ALL
   - RGB HUI
   - RGB HUD
   - RGB EFF
+  - RGB EFR
+  - RGB TOG
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '1'
