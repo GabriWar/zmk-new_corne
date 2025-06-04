@@ -66,9 +66,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - RGB BRD
-  - RGB BRI
-  - RGB SPI
-  - RGB EFR
+  - RGB SAI
+  - RGB SAD
+  - RGB COLOR HSB(188,100,50)
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -79,10 +79,10 @@ layers:
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB TOG
+  - RGB HUI
+  - RGB HUD
   - RGB EFF
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
