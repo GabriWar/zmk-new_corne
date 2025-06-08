@@ -104,8 +104,8 @@
         layer_4 {
             bindings = <
 &kp APOS  &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3     &kp NUMBER_4  &kp N5                         &trans          &kp NUMBER_6  &kp N7          &kp N8            &kp N9      &kp N0              &key_repeat
-&trans    &trans          &kp UP_ARROW    &trans           &trans        &soft_off              &trans  &trans  &trans  &kp C_REWIND  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_FAST_FORWARD  &trans
-&trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &bootloader  &trans            &trans          &bootloader   &soft_off       &bt BT_CLR        &trans      &trans              &trans
+&trans    &trans          &kp UP_ARROW    &trans           &trans        &trans                 &trans  &trans  &trans  &kp C_REWIND  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_FAST_FORWARD  &trans
+&trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans        &bootloader  &trans            &trans          &bootloader   &bt BT_CLR_ALL  &bt BT_CLR        &trans      &trans              &trans
                                           &trans           &trans        &trans                                         &trans        &trans          &trans
             >;
 
