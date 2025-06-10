@@ -132,7 +132,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
@@ -215,11 +215,11 @@ layers:
   - RGB SPD
   - RGB SAI
   - RGB SAD
-  - RGB COLOR HSB(188,100,50)
+  - $$mdi:progress-download$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '&studio_unlock'
+  - $$mdi:progress-download$$
   - POWER
   - '&soft_off'
   - F16
@@ -233,7 +233,7 @@ layers:
   - RGB TOG
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - $$mdi:progress-download$$
+  - '&studio_unlock'
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - F19
