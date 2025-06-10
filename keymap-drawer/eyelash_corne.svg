@@ -542,10 +542,9 @@ rect.held, rect.combo.held {
 <g transform="translate(285, 209) rotate(12.0)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">CONF/</tspan><tspan x="0" dy="1.2em">MACRO</tspan>
-</text>
-</g>
+<a href="#CFMC">
+<text x="0" y="-4" class="key tap layer-activator">CF/MC</text>
+</a></g>
 <g transform="translate(348, 226) rotate(24.0)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -556,27 +555,26 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
-<a href="#FNMEDIA">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 75%">FN/MEDIA</tspan></text>
+<a href="#FNMD">
+<text x="0" y="24" class="key hold layer-activator">FN/MD</text>
 </a></g>
 <g transform="translate(695, 209) rotate(-12.0)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">SYM/</tspan><tspan x="0" dy="1.2em">MOUSE</tspan>
-</text>
-</g>
+<a href="#SMMS">
+<text x="0" y="-4" class="key tap layer-activator">SM/MS</text>
+</a></g>
 <g transform="translate(756, 203)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
-<a href="#NUMARROWS">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 60%">NUM/ARROWS</tspan></text>
+<a href="#NMAR">
+<text x="0" y="24" class="key hold layer-activator">NM/AR</text>
 </a></g>
 </g>
 </g>
-<g transform="translate(40, 318)" class="layer-SYM/MOUSE">
-<text x="0" y="28" class="label" id="SYMMOUSE">SYM/MOUSE:</text>
+<g transform="translate(40, 318)" class="layer-SM/MS">
+<text x="0" y="28" class="label" id="SMMS">SM/MS:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -833,8 +831,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 637)" class="layer-NUM/ARROWS">
-<text x="0" y="28" class="label" id="NUMARROWS">NUM/ARROWS:</text>
+<g transform="translate(40, 637)" class="layer-NM/AR">
+<text x="0" y="28" class="label" id="NMAR">NM/AR:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1085,8 +1083,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 955)" class="layer-FN/MEDIA">
-<text x="0" y="28" class="label" id="FNMEDIA">FN/MEDIA:</text>
+<g transform="translate(40, 955)" class="layer-FN/MD">
+<text x="0" y="28" class="label" id="FNMD">FN/MD:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1337,8 +1335,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1274)" class="layer-CONF/MACRO">
-<text x="0" y="28" class="label" id="CONFMACRO">CONF/MACRO:</text>
+<g transform="translate(40, 1274)" class="layer-CF/MC">
+<text x="0" y="28" class="label" id="CFMC">CF/MC:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
