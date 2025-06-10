@@ -66,7 +66,7 @@
         };
 
         L1 {
-            display-name = "SYM/MOUSE";
+            display-name = "SM/MS";
             bindings = <
 &trans  &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &trans  &trans    &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
@@ -85,12 +85,12 @@
                                           &trans           &trans        &trans                                    &trans        &trans        &trans
             >;
 
-            label = "NUM/ARROWS";
+            label = "NM/AR";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         L3 {
-            display-name = "FN/MEDIA";
+            display-name = "FN/MD";
             bindings = <
 &kp F1  &kp F2  &kp F3     &kp F4     &kp F5     &kp F6                                        &kp LC(LG(UP_ARROW))                          &kp F7     &kp F8           &kp F9            &kp F10          &kp F11   &kp F12
 &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4                &kp C_BRIGHTNESS_DEC  &kp LG(F1)              &kp C_BRIGHTNESS_INC  &mkp RCLK  &kp C_PREVIOUS   &kp C_PLAY_PAUSE  &kp C_NEXT       &kp HOME  &kp PAGE_UP
@@ -102,7 +102,7 @@
         };
 
         L4 {
-            display-name = "CONF/MACRO";
+            display-name = "CF/MC";
             bindings = <
 &bt BT_NXT  &bt BT_PRV       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3                                   &mmv MOVE_UP                     &sys_reset      &out OUT_BLE  &out OUT_USB    &kp F13  &kp F14  &kp F17
 &trans      &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &bootloader                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader     &kp K_POWER   &soft_off       &kp F16  &kp F17  &kp F18
