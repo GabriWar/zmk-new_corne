@@ -42,13 +42,13 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - $$mdi:backspace-reverse-outline$$
   - LGUI
   - '&key_repeat'
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', h: FUN/MID}
   - SM/MS
-  - {t: '$$mdi:backspace-reverse-outline$$', h: NM/AR}
+  - NM/AR
   SM/MS:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -249,3 +249,5 @@ combos:
 - p: [43, 46]
   k: CON/MAC
   l: [QWERTY]
+- p: [0, 1]
+  k: $$mdi:keyboard-esc$$
