@@ -46,7 +46,7 @@ layers:
   - LGUI
   - '&key_repeat'
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-return$$', h: FN/MD}
+  - {t: '$$mdi:keyboard-return$$', h: FUN/MID}
   - SM/MS
   - {t: '$$mdi:backspace-reverse-outline$$', h: NM/AR}
   SM/MS:
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  FN/MD:
+  FUN/MID:
   - F1
   - F2
   - F3
@@ -196,7 +196,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  CF/MC:
+  CON/MAC:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -247,5 +247,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [43, 46]
-  k: CF/MC
+  k: CON/MAC
   l: [QWERTY]
