@@ -21,7 +21,7 @@ layers:
   - F
   - G
   - $$mdi:pan-left$$
-  - $$mdi:mouse-scroll-wheel$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-right$$
   - H
   - J
