@@ -15,9 +15,7 @@ include:
     artifact-name: eyelash_corne_debug_left
 
   - board: eyelash_corne_left/nrf52840/zmk
-    shield: nice_epaper
     snippet: zmk-usb-logging
-    cmake-args: -DCONFIG_ZMK_DISPLAY=n -DCONFIG_LVGL=n
     artifact-name: eyelash_corne_nodisp_left
 
   - board: eyelash_corne_left/nrf52840/zmk
