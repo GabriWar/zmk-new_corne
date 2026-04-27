@@ -4,22 +4,16 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: GabriWar
       url-base: https://github.com/GabriWar
-      # Additional modules containing boards/shields/custom code can be listed here as well.
-      # See:
-      # - https://zmk.dev/docs/features/modules
-      # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
   projects:
     - name: eyelash_corne
       url: https://github.com/GabriWar/zmk-new_corne
       revision: main
     - name: zmk
-      remote: GabriWar
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
+      remote: GabriWar
+      revision: lvgl9-port
   self:
     path: config

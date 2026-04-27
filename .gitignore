@@ -5,3 +5,5 @@ tools/
 .west/
 
 .zmk/
+zmk-nice-oled/
+lvgl/
