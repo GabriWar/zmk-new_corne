@@ -5,9 +5,6 @@ manifest:
     - name: GabriWar
       url-base: https://github.com/GabriWar
   projects:
-    - name: eyelash_corne
-      url: https://github.com/GabriWar/zmk-new_corne
-      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
