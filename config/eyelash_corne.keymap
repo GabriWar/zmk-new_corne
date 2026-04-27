@@ -100,7 +100,7 @@
                                           &trans           &trans        &trans                                    &trans        &trans        &trans
             >;
 
-            label = "NM/AR";
+            display-name = "NM/AR";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
