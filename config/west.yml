@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: zmk-nice-oled
       remote: GabriWar
-      revision: lvgl9-port
+      revision: main
   self:
     path: config
